@@ -10,8 +10,8 @@ namespace SalesRegister.Model
     {
         public Item Item { get; }
         public int Quantity { get; set; }
-        public decimal SubTotal { get { return Item.Price * Quantity; } }
-        // public decimal SubTotal => Item.Price * Quantity;
+        //public decimal SubTotal { get { return Item.Price * Quantity; } }
+        public decimal SubTotal => Item.Price * Quantity;
 
         public SaleLine(Item item)
         {

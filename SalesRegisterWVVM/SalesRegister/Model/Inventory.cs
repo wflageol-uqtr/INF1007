@@ -10,6 +10,8 @@ namespace SalesRegister.Model
     {
         public static Inventory Singleton { get; } = new Inventory();
 
+        private Inventory() { }
+
         private IEnumerable<Item> items { get; } = new Item[]
         {
             new Item("35b7d0f3-58c2-448e-8487-2791cf7ea6a5", "Chaussures de course", 119.99M),
