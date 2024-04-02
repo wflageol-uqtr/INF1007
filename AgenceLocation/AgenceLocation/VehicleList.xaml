@@ -1,0 +1,32 @@
+﻿
+<Page x:Class="AgenceLocation.VehicleList"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AgenceLocation"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="VehicleList">
+    <ListView Name="ListView">
+        <ListView.ItemContainerStyle>
+            <Style TargetType="ListViewItem">
+                <Setter Property="Height" Value="200" />
+            </Style>
+        </ListView.ItemContainerStyle>
+        <ListView.View>
+            <GridView>
+                <GridViewColumn Header="Image" Width="200">
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding Path=Type.Image}" />
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
+                </GridViewColumn>
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Type.Brand}" Header="Marque" Width="100" />
+                <GridViewColumn DisplayMemberBinding="{Binding Path=Type.Model}" Header="Modèle" Width="100" />
+                <GridViewColumn DisplayMemberBinding="{Binding Path=State}" Header="État" Width="300" />
+            </GridView>
+        </ListView.View>
+    </ListView>
+</Page>
