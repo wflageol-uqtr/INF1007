@@ -1,0 +1,23 @@
+@startuml
+
+actor Utilisateur
+
+Utilisateur -> MainWindow: Clic sur VehicleListButton
+MainWindow -> DateRangeSelector: new(confirmAction, cancelAction)
+DateRangeSelector --> MainWindow
+MainWindow --> Utilisateur: Affiche DateRangeSelector
+Utilisateur -> DateRangeSelector: Entre les dates et confirme
+DateRangeSelector -> VehicleListController: CreatePage(start, end)
+VehicleListController -> RentalAgency: ListAvailableVehicles(start, end)
+RentalAgency -> Database: QueryVehicles
+Database --> RentalAgency: IEnumerable<Vehicle>
+RentalAgency -> Database: QueryRentals
+Database --> RentalAgency: IEnumerable<Rental>
+RentalAgency -> Database: QueryReservations
+Database --> RentalAgency: IEnumerable<Reservation>
+RentalAgency --> VehicleListController: IEnumerable<Vehicle>
+VehicleListController -> VehicleList: new(availableVehicles)
+VehicleList --> VehicleListController
+VehicleListController --> DateRangeSelector: VehicleList
+DateRangeSelector --> Utilisateur: Affiche VehicleList
+@enduml
