@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\salesregister.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\salesregister.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\salesregister.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\salesregister.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\viewmodel\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\viewmodel\\saleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\viewmodel\\salelineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\viewmodel\\salelineviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|c:\\users\\flageolw\\documents\\github\\inf1007\\salesregistermvvm\\salesregister\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C04F6F8-890F-4F03-8795-7F02DBE722D0}|SalesRegister\\SalesRegister.csproj|solutionrelative:salesregister\\viewmodel\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesRegister",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\SalesRegister.csproj",
+              "RelativeDocumentMoniker": "SalesRegister\\SalesRegister.csproj",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\SalesRegister.csproj",
+              "RelativeToolTip": "SalesRegister\\SalesRegister.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T19:44:44.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SalesRegister",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\SalesRegister.csproj",
+              "RelativeDocumentMoniker": "SalesRegister\\SalesRegister.csproj",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\SalesRegister.csproj",
+              "RelativeToolTip": "SalesRegister\\SalesRegister.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-29T19:44:46.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "SalesRegister\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\AssemblyInfo.cs",
+              "RelativeToolTip": "SalesRegister\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:44:37.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SaleViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\SaleViewModel.cs",
+              "RelativeDocumentMoniker": "SalesRegister\\ViewModel\\SaleViewModel.cs",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\SaleViewModel.cs",
+              "RelativeToolTip": "SalesRegister\\ViewModel\\SaleViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:44:35.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleLineViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\SaleLineViewModel.cs",
+              "RelativeDocumentMoniker": "SalesRegister\\ViewModel\\SaleLineViewModel.cs",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\SaleLineViewModel.cs",
+              "RelativeToolTip": "SalesRegister\\ViewModel\\SaleLineViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:44:34.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "SalesRegister\\ViewModel\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\SalesRegisterMVVM\\SalesRegister\\ViewModel\\BaseViewModel.cs",
+              "RelativeToolTip": "SalesRegister\\ViewModel\\BaseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:44:32.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
