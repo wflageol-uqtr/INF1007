@@ -33,7 +33,7 @@ namespace TicTacToeTests
         {
             // Arrange & Act & Assert
             Assert.ThrowsException<ArgumentException>(
-                () => board.PlaceMark(Mark.O, -1, 0));
+                () => board.PlaceMark(Mark.O, x, y));
         }
 
         [TestMethod]
