@@ -10,7 +10,7 @@ namespace TicTacToe.Model
     {
         private Board board;
         private Player[] players;
-        private Mark winner;
+        private Mark winner = Mark.None;
 
         public Player CurrentPlayer { get; private set; }
 

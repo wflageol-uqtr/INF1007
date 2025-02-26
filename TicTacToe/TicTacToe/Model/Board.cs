@@ -27,9 +27,30 @@ namespace TicTacToe.Model
             ];
         }
 
+        public Board(IEnumerable<Mark> tiles)
+        {
+            this.tiles = tiles.ToArray();
+        }
+
+        /// <summary>
+        /// Place un jeton à l'endroit spécifié par x et y.
+        /// </summary>
+        /// <param name="m">Le type de jeton.</param>
+        /// <param name="x">La coordonnée x de 0 à 2.</param>
+        /// <param name="y">La coordonnées y de 0 à 2.</param>
+        /// <returns>Retourne None si aucun joueur n'a gagné. 
+        /// Sinon retourne le jeton du joueur gagnant.</returns>
         public Mark PlaceMark(Mark m, int x, int y)
         {
-            tiles[y * 3 + x] = m;
+            if (x < 0 || x > 2 || y < 0 || y > 2)
+                throw new ArgumentException("Invalid coordinates.");
+
+            int n = y * 3 + x;
+
+            if (tiles[n] != Mark.None)
+                throw new ArgumentException("Tiles already marked.");
+
+            tiles[n] = m;
 
             return HasWon();
         }
