@@ -73,7 +73,7 @@ namespace TicTacToe.Model
                 [tiles[2], tiles[4], tiles[6]],
             ];
 
-            foreach(var line in lines)
+            foreach (var line in lines)
             {
                 if (WinCombo(line[0], line[1], line[2]))
                     return line[0];

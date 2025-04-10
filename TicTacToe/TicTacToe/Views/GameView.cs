@@ -7,8 +7,17 @@ using TicTacToe.Model;
 
 namespace TicTacToe.Views
 {
-    public class GameView
+    public class GameView : IGameView
     {
+        private IOutput output;
+        private IInput input;
+
+        public GameView(IInput input, IOutput output)
+        {
+            this.input = input;
+            this.output = output;
+        }
+
         public void PrintGame(Game game)
         {
             var boardState = game.GameState;
@@ -18,7 +27,7 @@ namespace TicTacToe.Views
                 for (int x = 0; x < 3; x++)
                 {
                     char c;
-                    switch(boardState.ElementAt(y * 3 + x))
+                    switch (boardState.ElementAt(y * 3 + x))
                     {
                         case Mark.O:
                             c = 'o';
@@ -30,23 +39,23 @@ namespace TicTacToe.Views
                             c = '_';
                             break;
                     }
-                    Console.Write("{0} ", c);
+                    output.Write(string.Format("{0} ", c));
                 }
-                Console.WriteLine();
+                output.WriteLine();
             }
         }
 
         public (int, int)? PrintPlay(Game game)
         {
-            Console.Write("Player {0} move: ", game.CurrentPlayer.Mark);
-            Console.WriteLine();
+            output.Write(string.Format("Player {0} move: ", game.CurrentPlayer.Mark));
+            output.WriteLine();
 
             return ReadPlay();
         }
 
         private (int, int)? ReadPlay()
         {
-            var coord = Console.ReadLine();
+            var coord = input.ReadLine();
             if (string.IsNullOrEmpty(coord))
                 return null;
             else

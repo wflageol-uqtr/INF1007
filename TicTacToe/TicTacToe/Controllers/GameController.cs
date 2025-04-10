@@ -11,12 +11,12 @@ namespace TicTacToe.Controllers
     public class GameController
     {
         private Game game;
-        private GameView view;
+        private IGameView view;
 
         public GameController()
         {
             game = new Game();
-            view = new GameView();
+            view = new GameView(new ConsoleInput(), new ConsoleOutput());
         }
 
         public void PlayGame()
