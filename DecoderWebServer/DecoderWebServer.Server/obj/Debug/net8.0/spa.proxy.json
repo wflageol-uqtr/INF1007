@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\DecoderWebServer\\DecoderWebServer.Server\\..\\decoderwebserver.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

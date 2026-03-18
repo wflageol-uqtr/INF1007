@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\DecoderWebServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A113624-2A0E-41FD-BB11-C230E376335E}|decoderwebserver.client\\decoderwebserver.client.esproj|c:\\users\\flageolw\\documents\\github\\inf1007\\decoderwebserver\\decoderwebserver.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A113624-2A0E-41FD-BB11-C230E376335E}|decoderwebserver.client\\decoderwebserver.client.esproj|solutionrelative:decoderwebserver.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\DecoderWebServer\\decoderwebserver.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "decoderwebserver.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\flageolw\\Documents\\GitHub\\INF1007\\DecoderWebServer\\decoderwebserver.client\\src\\App.jsx",
+              "RelativeToolTip": "decoderwebserver.client\\src\\App.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-03-18T17:30:55.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

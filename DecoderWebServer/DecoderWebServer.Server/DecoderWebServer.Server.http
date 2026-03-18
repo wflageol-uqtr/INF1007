@@ -1,0 +1,6 @@
+@DecoderWebServer.Server_HostAddress = http://localhost:5267
+
+GET {{DecoderWebServer.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
