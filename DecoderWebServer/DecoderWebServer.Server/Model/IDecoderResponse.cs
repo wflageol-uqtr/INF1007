@@ -1,11 +1,11 @@
 ﻿namespace DecoderWebServer.Server.Model
 {
-    public interface DecoderResponse
+    public interface IDecoderResponse
     {
         string Response { get; }
     }
 
-    public class OKResponse : DecoderResponse
+    public class OKResponse : IDecoderResponse
     {
         public string Response => "OK";
     }
@@ -17,7 +17,7 @@
         public string LastReinit { get; set; } = "";
     }
 
-    public class ErrorResponse : DecoderResponse
+    public class ErrorResponse : IDecoderResponse
     {
         public string Response => "Error";
         public string Message { get; set; } = "";
