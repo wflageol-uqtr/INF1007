@@ -7,7 +7,7 @@ namespace DecoderWebServer.Server.Controllers
     [Route("[controller]")]
     public class DecoderController : ControllerBase
     {
-        private List<Student> students = new();
+        private List<Student> students = [new Student("AAAA000000")];
 
         private Student GetStudent(string id)
         {
@@ -47,7 +47,7 @@ namespace DecoderWebServer.Server.Controllers
                         decoder.Reinit();
                         return new OKResponse();
                     case "shutdown":
-                        decoder.Reset();
+                        decoder.Shutdown();
                         return new OKResponse();
                     default:
                         return new ErrorResponse

@@ -2,30 +2,30 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-    const [forecasts, setForecasts] = useState();
+    const [decoders, setDecoders] = useState();
 
     useEffect(() => {
-        populateWeatherData();
+        populateDecoders('AAAA000000');
     }, []);
 
-    const contents = forecasts === undefined
+    const contents = decoders === undefined
         ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
         : <table className="table table-striped" aria-labelledby="tableLabel">
             <thead>
                 <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
+                    <th>Adresse</th>
+                    <th>État</th>
+                    <th>Dernier redémarrage</th>
+                    <th>Dernière réinitialisation</th>
                 </tr>
             </thead>
             <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
+                {decoders.map(decoder =>
+                    <tr>
+                        <td>{decoder.address}</td>
+                        <td>{decoder.state}</td>
+                        <td>{decoder.lastReset}</td>
+                        <td>{decoder.lastReinit}</td>
                     </tr>
                 )}
             </tbody>
@@ -33,16 +33,34 @@ function App() {
 
     return (
         <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
+            <h1 id="tableLabel">Liste des décodeurs</h1>
             {contents}
         </div>
     );
-    
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        setForecasts(data);
+
+    async function populateDecoders(id) {
+        var decoders = [];
+
+        for (var i = 1; i <= 12; i++) {
+            var address = '127.0.10.' + i;
+            const response = await fetch('decoder', {
+                method: "POST",
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    id: id,
+                    address: address,
+                    action: 'info'
+                }),
+            });
+            const data = await response.json();
+            data.address = address;
+
+            decoders.push(data);
+        }
+        setDecoders(decoders);
     }
 }
 
